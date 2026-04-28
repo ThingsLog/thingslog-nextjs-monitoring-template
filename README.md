@@ -179,7 +179,7 @@ Build the next useful installer or integrator feature and explain how to run it 
 
 This repository is part of the ThingsLog installer and integrator template family. For stack selection, copy-paste startup commands, Codex prompts, Claude prompts, and security-review prompts, start here:
 
-- https://github.com/ThingsLog/thingslog-partner-ai-examples
+- https://github.com/ThingsLog/thingslog-ai-examples
 
 ## ThingsLog Links
 
