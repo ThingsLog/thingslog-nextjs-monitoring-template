@@ -8,19 +8,21 @@
 
 A full-stack Next.js starter for launching a branded monitoring and alerting portal for water customers and utility operations.
 
-> For installers, water-system integrators, and utility solution providers: launch your own branded monitoring and alerting app for private customers, individuals, businesses, and utilities without starting from zero.
+> For installers, water-system integrators, and utility IT teams: launch your own branded monitoring and alerting app for private customers, communal utilities, municipalities, businesses, and local operators without starting from zero.
 
 ## Who This Is For
 
 - Water-meter installers who want to keep serving customers after installation
-- Water-system integrators building portals for utilities, municipalities, buildings, farms, and private owners
+- Water-system integrators building portals for small communal utilities, municipalities, buildings, farms, and private owners
+- Utility IT teams that need practical monitoring, alerts, reports, and customer workflows without a large enterprise platform project
+- Small and mid-size water utilities, local operators, and service providers that want their own app and portal
+- Larger utilities that want to test lightweight ThingsLog-powered apps, pilots, or focused operational tools
 - Companies that want to launch a white-label monitoring and alerting business
-- Utilities and service providers that need their own app, portal, alerts, reports, and customer workflows
 - Technical teams using Codex or Claude to turn ThingsLog APIs into production-ready customer experiences
 
 ## Why This Exists
 
-ThingsLog provides remote IoT monitoring and automation for smart metering, water utilities, pressure, tank level, pumps, energy, gas, agriculture, buildings, and industrial operations. These repositories help installers and system integrators turn field devices into a sellable monitoring and alerting service with their own app, portal, customer workflows, and recurring revenue model.
+ThingsLog provides remote IoT monitoring and automation for smart metering, water utilities, pressure, tank level, pumps, energy, gas, agriculture, buildings, and industrial operations. These repositories are especially focused on the everyday problems of small communal utilities, municipalities, local operators, and the installers or integrators serving them: getting reliable data, alerts, reports, and customer visibility without the cost and complexity of a large enterprise rollout. Larger utilities are welcome too, especially for focused pilots, lightweight portals, and operational tools.
 
 ## What You Get
 
@@ -139,7 +141,7 @@ Security rule: ThingsLog API tokens stay server-side. Do not expose them through
 Open this repo in Codex and paste:
 
 ```text
-Use this repository to build a branded ThingsLog monitoring and alerting app for installers, water-system integrators, private customers, individuals, businesses, or utilities. Keep ThingsLog credentials server-side and preserve mock mode.
+Use this repository to build a branded ThingsLog monitoring and alerting app for installers, water-system integrators, private customers, individuals, small communal utilities, municipalities, businesses, or larger utilities. Keep ThingsLog credentials server-side and preserve mock mode.
 
 First inspect README.md, AGENTS.md, CLAUDE.md, and the existing ThingsLog client code.
 Then propose the smallest useful first version for an installer-ready monitoring and alerting portal.
@@ -169,7 +171,8 @@ Build the next useful installer or integrator feature and explain how to run it 
 ## Business Ideas for Installers and Integrators
 
 - Branded monitoring portal for private water customers, households, buildings, farms, and industrial sites
-- Utility-facing dashboard for district metering, pressure zones, tanks, pumping stations, and alarm response
+- Practical utility IT dashboard for small communal utilities, municipalities, and local water operators
+- District metering, pressure-zone, tank, pumping-station, and alarm-response views without a heavy enterprise platform project
 - Alerting service for leaks, abnormal consumption, missed transmissions, low battery, pressure thresholds, and tank level
 - Installer operations portal for device commissioning, site handover, maintenance, and customer support
 - Monthly monitoring package with reports, notifications, SLA checks, and field-service follow-up
