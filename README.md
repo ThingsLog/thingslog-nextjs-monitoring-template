@@ -37,6 +37,32 @@ npm install
 npm run dev
 ```
 
+## Generate Your ThingsLog Token
+
+You need a ThingsLog API token before connecting real devices. For a quick test, use direct login and copy the bearer token from the `Authorization` response header:
+
+```bash
+curl -i -X POST "https://iot.thingslog.com:4443/login" \
+  -H "Content-Type: application/json" \
+  -d '{"username":"YOUR_USERNAME","password":"YOUR_PASSWORD"}'
+```
+
+For partner backends and production integrations, generate a long-term API token:
+
+```bash
+KEYCLOAK_TOKEN=$(curl -s -X POST "https://iot.thingslog.com/keycloak/realms/thingslog/protocol/openid-connect/token" \
+  -H "Content-Type: application/x-www-form-urlencoded" \
+  -d "grant_type=password" \
+  -d "client_id=thingslog-admin" \
+  -d "username=YOUR_USERNAME" \
+  -d "password=YOUR_PASSWORD" | node -e 'let s="";process.stdin.on("data",d=>s+=d);process.stdin.on("end",()=>console.log(JSON.parse(s).access_token))')
+
+curl -i -X POST "https://iot.thingslog.com:4443/api/api-token?expirationTimeHours=720&name=partner-demo-token" \
+  -H "Authorization: Bearer $KEYCLOAK_TOKEN"
+```
+
+Copy the generated API token into `THINGSLOG_TOKEN`, set `THINGSLOG_MOCK=false`, choose a real `THINGSLOG_DEVICE_NUMBER`, and start the app. Now you can rock and roll with live ThingsLog data.
+
 ## Connect Real ThingsLog Data
 
 Mock mode is enabled by default so the project starts without credentials. To connect real devices, set these values in `.env` or the framework-specific env file:
