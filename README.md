@@ -35,6 +35,45 @@ ThingsLog provides remote IoT monitoring and automation for smart metering, wate
 - **Stack:** Next.js App Router, React, server-side ThingsLog data loading, alert-ready dashboard
 - **Use when:** You want one repository for a customer portal, installer portal, or managed monitoring service.
 
+## ThingsLog Solutions to Build On
+
+These templates are designed around real ThingsLog solution areas that installers and integrators can package into their own app, portal, reports, and alerting service.
+
+<table>
+  <tr>
+    <td width="33%">
+      <a href="https://thingslog.com/thingslog-solutions/intelligent-water/"><img src="assets/solutions/water-monitoring.jpg" alt="ThingsLog intelligent water monitoring" /></a>
+      <br />
+      <strong><a href="https://thingslog.com/thingslog-solutions/intelligent-water/">Intelligent Water</a></strong>
+      <br />
+      Smart metering, NRW, pressure, pumps, wastewater, reservoirs, tanks, and customer alerts.
+    </td>
+    <td width="33%">
+      <a href="https://thingslog.com/thingslog-solutions/energy-consumption-monitoring/"><img src="assets/solutions/energy-monitoring.png" alt="ThingsLog energy monitoring" /></a>
+      <br />
+      <strong><a href="https://thingslog.com/thingslog-solutions/energy-consumption-monitoring/">Energy Monitoring</a></strong>
+      <br />
+      Consumption tracking, alarms, reports, optimization workflows, and business efficiency dashboards.
+    </td>
+    <td width="33%">
+      <a href="https://thingslog.com/thingslog-solutions/thingslog-smart-agriculture/"><img src="assets/solutions/agriculture-monitoring.png" alt="ThingsLog smart agriculture monitoring" /></a>
+      <br />
+      <strong><a href="https://thingslog.com/thingslog-solutions/thingslog-smart-agriculture/">Smart Agriculture</a></strong>
+      <br />
+      Irrigation, soil and environmental monitoring, farm operations, alerts, and field reporting.
+    </td>
+  </tr>
+</table>
+
+Water-focused starting points:
+
+- [Remote Smart Water Metering](https://thingslog.com/thingslog-solutions/intelligent-water/smart-water-metering/)
+- [NRW Leak Detection and Control](https://thingslog.com/leak-detection-nrw-monitoring-and-control/)
+- [Pressure Management and Control](https://thingslog.com/thingslog-solutions/intelligent-water/water-pressure-monitoring/)
+- [Pumping Station Automation and Control](https://thingslog.com/thingslog-solutions/intelligent-water/pumping-station-automation-and-control/)
+- [Wastewater Monitoring](https://thingslog.com/thingslog-solutions/intelligent-water/wastewater-monitoring/)
+- [Tank Level Monitoring](https://thingslog.com/tank-level-monitoring/)
+
 ## Start in 5 Minutes
 
 ```bash
