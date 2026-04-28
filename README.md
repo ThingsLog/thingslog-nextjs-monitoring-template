@@ -189,4 +189,8 @@ This repository is part of the ThingsLog installer and integrator template famil
 
 ## License
 
-License terms to be selected by ThingsLog before public release.
+This project is licensed under the Apache License 2.0.
+
+You may use, modify, and distribute these templates in your own commercial or internal applications, including branded monitoring portals and alerting services, subject to the terms of the Apache License 2.0.
+
+ThingsLog names, logos, screenshots, website images, product names, and other brand assets remain the property of ThingsLog or their respective owners. The open source license applies to the code, documentation, and examples, not to ThingsLog trademarks or brand assets.
