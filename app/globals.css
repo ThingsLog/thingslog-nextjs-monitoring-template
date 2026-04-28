@@ -158,6 +158,18 @@ h2 {
   color: #60717d;
 }
 
+.powered-by {
+  margin-top: 18px;
+  color: #60717d;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+.powered-by a {
+  color: #18736d;
+  font-weight: 700;
+}
+
 @media (max-width: 860px) {
   .metrics,
   .content {
@@ -169,4 +181,3 @@ h2 {
     flex-direction: column;
   }
 }
-

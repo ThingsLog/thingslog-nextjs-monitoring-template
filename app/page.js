@@ -58,6 +58,10 @@ export default async function Home() {
           </div>
         </div>
       </section>
+
+      <footer className="powered-by">
+        Powered by <a href="https://thingslog.com">ThingsLog</a>
+      </footer>
     </main>
   );
 }
@@ -83,4 +87,3 @@ function formatDate(value) {
   if (!value) return "n/a";
   return new Intl.DateTimeFormat("en", { dateStyle: "medium", timeStyle: "short" }).format(new Date(value));
 }
-

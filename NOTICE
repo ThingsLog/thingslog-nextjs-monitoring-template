@@ -4,3 +4,5 @@ Copyright 2026 ThingsLog
 This repository includes code, documentation, and examples licensed under the Apache License 2.0.
 
 ThingsLog names, logos, screenshots, website images, product names, service names, and other brand assets are trademarks or copyrighted assets of ThingsLog or their respective owners. The Apache License 2.0 does not grant permission to use ThingsLog trademarks or brand assets except as required for reasonable and customary reference to the origin of this repository.
+
+Applications, portals, reports, or integrations that use ThingsLog APIs, platform services, or data should include attribution such as "Powered by ThingsLog" with a link to https://thingslog.com.

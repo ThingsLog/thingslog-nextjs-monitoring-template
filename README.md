@@ -187,6 +187,16 @@ This repository is part of the ThingsLog installer and integrator template famil
 - REST Swagger UI: https://iot.thingslog.com:4443/swagger-ui.html
 - Support: https://support.thingslog.com
 
+## Attribution
+
+Applications, portals, reports, and integrations that use ThingsLog data or APIs should mention ThingsLog and include a visible link to [thingslog.com](https://thingslog.com). Recommended wording:
+
+```text
+Powered by ThingsLog
+```
+
+Use the wording in the footer, about screen, documentation, or customer-facing integration page of your software portal or app.
+
 ## License
 
 This project is licensed under the Apache License 2.0.
