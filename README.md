@@ -46,7 +46,7 @@ These templates are designed around real ThingsLog solution areas that installer
       <br />
       <strong><a href="https://thingslog.com/thingslog-solutions/intelligent-water/">Intelligent Water</a></strong>
       <br />
-      Smart metering, NRW, pressure, pumps, wastewater, reservoirs, tanks, and customer alerts.
+      Smart metering, NRW, pressure, pumps, wastewater, reservoirs, tanks, and customer alerts. Supports popular water meter brands via LoRa, NB-IoT, or wireless M-Bus, plus Modbus devices and analog 4-20 mA or 0-3 V sensors.
     </td>
     <td width="33%">
       <a href="https://thingslog.com/thingslog-solutions/energy-consumption-monitoring/"><img src="assets/solutions/energy-monitoring.png" alt="ThingsLog energy monitoring" /></a>
@@ -64,6 +64,14 @@ These templates are designed around real ThingsLog solution areas that installer
     </td>
   </tr>
 </table>
+
+
+Water compatibility for your own apps:
+
+- Works with popular water meter brands through LoRa, NB-IoT, or wireless M-Bus integrations.
+- Can collect from Modbus devices and industrial controllers.
+- Can collect from analog sensors such as 4-20 mA and 0-3 V pressure, level, flow, and environmental sensors.
+- Partners and customers can use ThingsLog data in their own apps, portals, alerting services, reports, and integrations.
 
 Water-focused starting points:
 
